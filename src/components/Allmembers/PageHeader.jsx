@@ -2,15 +2,15 @@ import React from 'react'
 
 const PageHeader = () => {
   return (
-    <div> <div class="pageheader bg_img" >
-      <div class="container">
-        <div class="pageheader__content text-center">
+    <div> <div className="pageheader bg_img" >
+      <div className="container">
+        <div className="pageheader__content text-center">
           <h2>Ollya All Members</h2>
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb justify-content-center mb-0">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">Community</a></li>
-              <li class="breadcrumb-item active" aria-current="page">All Members</li>
+            <ol className="breadcrumb justify-content-center mb-0">
+              <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+              {/* <li className="breadcrumb-item"><a href="#">Community</a></li> */}
+              <li className="breadcrumb-item active" aria-current="page">All Members</li>
             </ol>
           </nav>
         </div>

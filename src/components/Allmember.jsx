@@ -1,6 +1,6 @@
 import React from 'react'
 import PageAbout from './Allmembers/PageAbout'
-import PageFooter from './Allmembers/PageFooter'
+// import PageFooter from './Allmembers/PageFooter'
 import PageHeader from './Allmembers/PageHeader'
 import PageMember from './Allmembers/PageMember'
 import PageModal from './Allmembers/PageModal'

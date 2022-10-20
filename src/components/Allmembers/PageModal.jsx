@@ -2,20 +2,20 @@ import React from 'react'
 
 const PageModal = () => {
     return (
-        <div><div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Filter your search</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div><div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">Filter your search</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div className="modal-body">
                         <form action="#">
-                            <div class="banner__list">
-                                <div class="row align-items-center row-cols-1">
-                                    <div class="col">
+                            <div className="banner__list">
+                                <div className="row align-items-center row-cols-1">
+                                    <div className="col">
                                         <label>I am a</label>
-                                        <div class="banner__inputlist">
+                                        <div className="banner__inputlist">
                                             <select>
                                                 <option>Select Gender</option>
                                                 <option value="male" selected>Male</option>
@@ -24,9 +24,9 @@ const PageModal = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div className="col">
                                         <label>Looking for</label>
-                                        <div class="banner__inputlist">
+                                        <div className="banner__inputlist">
                                             <select>
                                                 <option>Select Gender</option>
                                                 <option value="male">Male</option>
@@ -35,11 +35,11 @@ const PageModal = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div className="col">
                                         <label>Age</label>
-                                        <div class="row g-3">
-                                            <div class="col-6">
-                                                <div class="banner__inputlist">
+                                        <div className="row g-3">
+                                            <div className="col-6">
+                                                <div className="banner__inputlist">
                                                     <select>
                                                         <option value="18" selected>18</option>
                                                         <option value="19">19</option>
@@ -67,8 +67,8 @@ const PageModal = () => {
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-6">
-                                                <div class="banner__inputlist">
+                                            <div className="col-6">
+                                                <div className="banner__inputlist">
                                                     <select>
                                                         <option value="18">18</option>
                                                         <option value="19">19</option>
@@ -98,9 +98,9 @@ const PageModal = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div className="col">
                                         <label>Country</label>
-                                        <div class="banner__inputlist">
+                                        <div className="banner__inputlist">
                                             <select id="country2" name="country2">
                                                 <option value="Afganistan">Afghanistan</option>
                                                 <option value="Albania">Albania</option>
@@ -351,8 +351,8 @@ const PageModal = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <button type="submit" class="default-btn reverse d-block"><span>Find Your Partner</span></button>
+                                    <div className="col">
+                                        <button type="submit" className="default-btn reverse d-block"><span>Find Your Partner</span></button>
                                     </div>
                                 </div>
                             </div>

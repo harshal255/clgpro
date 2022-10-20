@@ -2,15 +2,15 @@ import React from 'react'
 
 const PageAbout = () => {
     return (
-        <div><div class="about about--style3 padding-top pt-xl-0">
-            <div class="container">
-                <div class="section__wrapper">
+        <div><div className="about about--style3 padding-top pt-xl-0">
+            <div className="container">
+                <div className="section__wrapper">
                     <form action="#">
-                        <div class="banner__list">
-                            <div class="row align-items-center row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1">
-                                <div class="col-6">
+                        <div className="banner__list">
+                            <div className="row align-items-center row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1">
+                                <div className="col-6">
                                     <label>I am a</label>
-                                    <div class="banner__inputlist">
+                                    <div className="banner__inputlist">
                                         <select>
                                             <option>Select Gender</option>
                                             <option value="male" selected>Male</option>
@@ -19,9 +19,9 @@ const PageAbout = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div className="col-6">
                                     <label>Looking for</label>
-                                    <div class="banner__inputlist">
+                                    <div className="banner__inputlist">
                                         <select>
                                             <option>Select Gender</option>
                                             <option value="male">Male</option>
@@ -30,11 +30,11 @@ const PageAbout = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <label>Age</label>
-                                    <div class="row g-3">
-                                        <div class="col-6">
-                                            <div class="banner__inputlist">
+                                    <div className="row g-3">
+                                        <div className="col-6">
+                                            <div className="banner__inputlist">
                                                 <select>
                                                     <option value="18" selected>18</option>
                                                     <option value="19">19</option>
@@ -62,8 +62,8 @@ const PageAbout = () => {
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-6">
-                                            <div class="banner__inputlist">
+                                        <div className="col-6">
+                                            <div className="banner__inputlist">
                                                 <select>
                                                     <option value="18">18</option>
                                                     <option value="19">19</option>
@@ -93,9 +93,9 @@ const PageAbout = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div className="col">
                                     <label>Country</label>
-                                    <div class="banner__inputlist">
+                                    <div className="banner__inputlist">
                                         <select id="country" name="country">
                                             <option value="Afganistan">Afghanistan</option>
                                             <option value="Albania">Albania</option>
@@ -346,8 +346,8 @@ const PageAbout = () => {
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col">
-                                    <button type="submit" class="default-btn reverse d-block"><span>Find Your Partner</span></button>
+                                <div className="col">
+                                    <button type="submit" className="default-btn reverse d-block"><span>Find Your Partner</span></button>
                                 </div>
                             </div>
                         </div>

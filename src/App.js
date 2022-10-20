@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Allmember from './components/Allmember';
 import Blogs from './components/Blogs';
+import Blogdetails from './components/Blogdetails';
 // import About from './components/About';
 // import Appsec from './components/Appsec';
 // import Banner from './components/Banner';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Hero></Hero>} />
           <Route path="/allmembers" element={<Allmember></Allmember>} />
           <Route path="/blogs" element={<Blogs></Blogs>} />
+          <Route path="/blogdetails" element={<Blogdetails></Blogdetails>} />
          
         </Routes>
       </Router>

@@ -4,9 +4,9 @@ const Preloader = () => {
   return (
     <div>
      {/* preloader start here  */}
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
+    <div className="preloader">
+        <div className="preloader-inner">
+            <div className="preloader-icon">
                 <span></span>
                 <span></span>
             </div>
@@ -15,7 +15,7 @@ const Preloader = () => {
 	 {/* preloader ending here  */}
 
 	 {/* scrollToTop start here  */}
-    <a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
+    <a href="/" className="scrollToTop"><i className="fa-solid fa-angle-up"></i></a>
     {/* scrollToTop ending here */}
     </div>
   )

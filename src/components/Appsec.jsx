@@ -2,13 +2,13 @@ import React from 'react'
 
 const Appsec = () => {
   return (
-    <div class="app padding-top">
-		<div class="container">
-			<div class="row g-4 justify-content-center flex-row-reverse">
-				<div class="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
-					<div class="app__item">
-						<div class="app__inner">
-							<div class="app__content">
+    <div className="app padding-top">
+		<div className="container">
+			<div className="row g-4 justify-content-center flex-row-reverse">
+				<div className="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
+					<div className="app__item">
+						<div className="app__inner">
+							<div className="app__content">
 								<h4>Easy Connect To Everyone</h4>
 								<h2>Download App Our Ollya</h2>
 								<p>You find us, finally and you are already in love. More than 5.000.000 around the
@@ -22,10 +22,10 @@ const Appsec = () => {
 						</div>
 					</div>
 				</div>
-				<div class="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
-					<div class="app__item">
-						<div class="app__inner">
-							<div class="app__thumb">
+				<div className="col-xxl-6 col-12 wow fadeInUp" data-wow-duration="1.5s">
+					<div className="app__item">
+						<div className="app__inner">
+							<div className="app__thumb">
 								<img src="assets/images/app/01.png" alt="dating thumb"/>
 							</div>
 						</div>
