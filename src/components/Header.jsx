@@ -40,16 +40,10 @@ const Header = () => {
 										</NavLink>
 
 									</li>
-									<li><a href="contact.html">contact</a></li>
+									
 								</ul>
 							</div>
-							<div className="header__more">
-								<button className="default-btn dropdown-toggle" type="button" id="moreoption" data-bs-toggle="dropdown" aria-expanded="false">My Account</button>
-								<ul className="dropdown-menu" aria-labelledby="moreoption">
-									<li><a className="dropdown-item" href="login.html">Log In</a></li>
-									<li><a className="dropdown-item" href="register.html">Sign Up</a></li>
-								</ul>
-							</div>
+							
 						</div>
 					</nav>
 				</div>
