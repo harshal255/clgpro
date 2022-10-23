@@ -1,30 +1,35 @@
 
 import './App.css';
-import About from './components/About';
-import Appsec from './components/Appsec';
-import Banner from './components/Banner';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Membersec from './components/Membersec';
-import Storysec from './components/Storysec';
-import Worksec from './components/Worksec';
-import Worksec2 from './components/Worksec2';
-import Meetsec from './components/Meetsec';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Allmember from './components/Allmember/Allmember';
+import Blog from './components/Blog/Blog';
+import Home from './components/Home/Home';
+
+
+import Details from './components/Blog/Details';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <About/>
-      <Worksec/>
-      <Membersec/>
-      <Storysec/>
-      <Meetsec/>
-      <Worksec2/>
-      <Appsec/>
-      <Footer/>
+      <Router>
+    
+        
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      
+      <Route path='/allmember'  element={<Allmember/>} />
+      <Route path='/blog'  element={<Blog/>} />
+      <Route path='/blog-details' element={<Details/>}/>
+      
 
+
+    </Routes>
+  
+    </Router>
       
     </div>
   );
